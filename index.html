@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Smart Life - Improve your decision-making, track habits and stay productive. Discover MindFlow for smarter choices and GrowthPath for personal growth." />
+    <title>Smart Life</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair:opsz,wght@5..1200,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="nav-logo">Smart Life</div>
+      <ul>
+        <li><a href="#" data-section="home">Home</a></li>
+        <li><a href="#" data-section="about">About </a></li>
+        <li><a href="#" data-section="mindflow">MindFlow</a></li>
+        <li><a href="#" data-section="growthpath"> GrowthPath</a></li>
+      </ul>
+    </nav>
+
+    <!-- Home page main section -->
+
+    <section id="home">
+      <div class="home-container">
+        <!-- left seid content -->
+        <div class="home-text">
+          <h1>Welcome to Smart Life</h1>
+          <p>
+            Your ultimate platform for making better decisions, tracking your
+            mood, and building strong habits.
+          </p>
+          <div class="home-buttons">
+            <a href="#" class="btn" data-section="mindflow">Explore MindFlow</a>
+            <a href="#" class="btn"data-section="growthpath">Explore GrowthPath</a>
+            <a href="#" class="btn" data-section="about">About</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MindFlow page -->
+    <section id="mindflow">
+      <div class="container">
+        <!-- left side text content -->
+        <div class="text-content">
+          <h1>Unlock Your MindFlow</h1>
+          <p>
+            Make smarter decisions & track your mood effectively with AI-powered
+            insights.
+          </p>
+          <a href="#" class="btn" data-section="about">Info</a>
+        </div>
+      </div>
+
+      <!-- How It Works section -->
+      <div id="how-it-works" class="how-it-works">
+        <h2>How It Works</h2>
+        <p>
+          1. Get AI-powered decision-making advice.<br />2. your mood & get
+          motivational quotes.
+        </p>
+        
+        <!-- Start mindflow -->
+        <section class="mindflow-start">
+        <h2>Start Your MindFlow</h2>
+        <p>Get instant insights & boost your daily mood.</p>
+      </div>
+
+        <div class="mindflow-options">
+          <!-- Decision Maker(API CALL) -->
+          <div class="mindflow-card left"  >
+            <h3>Decision Advice</h3>
+            <p>Get AI-Powered advice for making better decisions.</p>
+            <button class="btn">Get Advice</button>
+          </div>
+
+          <!-- Mood Tracker(API CALL) -->
+          <div class="mindflow-card right">
+            <h3>Mood Booster</h3>
+            <p>Receive motivational quotes to upotes to uplift your mood.</p>
+            <button class="btn">Get Motivational Quote</button>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- GrowthPath Page -->
+     <section id="growthpath">
+      <!-- backgroundimg with h1 -->
+      <div class="background-header">
+        <h1>Track Your Habits & Improve Daily</h1>
+      </div>
+
+       <!-- Motivation Section -->
+       <div class="motivation-section">
+        <h2>Stay Motivated & Keep Growing!</h2>
+        <p>Success comes from taking daily actions. Stay consistent, stay focused, and keep moving forward. Every small effort adds up to big results!</p>
+       </div>
+
+      <!-- main Containt 3 habit boxes -->
+      <div class="habit-container">
+        <!-- Good habits -->
+         <div class="habit-box">
+           <h2>Good Habits</h2>
+           <p>Write down the habits you are following.</p>
+           <textarea  id="goodHabits" placeholder="Enter your good habits here..."></textarea>
+           <button class="btn save-btn" id="saveGoodHabits">Save</button>
+           <button class="btn save-btn" id="resetGoodHabits">Reset</button>
+        
+          </div>
+          
+          
+          <!-- To - Do List Section -->
+          <div class="habit-box">
+            <h2>Daily Tasks</h2>
+            <p>Write down your daily tasks and stay productive.</p>
+            <div class="todo-container">
+              <div class="todo-input">
+                <input type="text" id="todoInput" placeholder="New task...">
+                <button id="addTask" class="btn">Add</button>
+              </div>
+              <ul id="todoList">
+              </ul>
+            </div>
+          </div>
+          
+          
+          <!-- Habits to Change -->
+          <div class="habit-box">
+            <h2>Habits to Change</h2>
+            <p>Write down the habits you want to improve</p>
+            <textarea id="badHabits" placeholder="Enter habits you want to change..."></textarea>
+            <button class="btn save-btn" id="saveBadHabits">Save</button>
+            <button class="btn save-btn" id="resetBadHabits">Reset</button>
+          </div>
+        </div>
+
+  </section>
+
+  <!-- About Section Start -->
+   <section id="about">
+    <!-- Hero section (welcome  & intro) -->
+     <div class="hero">
+      <div class="hero-text">
+        <h1>About Smart Life</h1>
+        <p>Welcome to Smart Life! Your ultimate platform for self-improvement, productivity, and tracking daily habits.</p>
+      </div>
+     </div>
+
+     <!-- Features section (overview of features) -->
+
+    <div class="features">
+      <div class="feature-box">
+        <div>
+          <h2>MindFlow</h2>
+          <p>Make better decisions and track your mood daily. Analye your thoughts, get personalized advice, and keep your mind balanced with effective decision-making tools</p>
+        </div>
+      </div>
+
+      <div class="feature-box">
+        <div>
+          <h2>GrowthPath</h2>
+          <p>Develop productive habits and follow practical life hacks. Our tracking system helps you measure progress, stay consistent, and improve your daily routine effectively.</p>
+        </div>
+      </div>
+    
+    </div>
+
+    <!-- Purpose & story section -->
+     <div class="purpose">
+      <h2>Why Smart Life</h2>
+      <p>We created this platform to help you stay organized, focused and motivated. Whether it's tracking habits, making better decisions, or finding daily motivation, we aim to provide eveything in one place.</p>
+     </div>
+
+     <!-- How to use section -->
+      <div class="steps">
+        <div class="step-box">
+          <h3>1. Set Your Goals</h3>
+          <p>Write down what you want to achive each week.</p>
+        </div>
+
+        <div class="step-box">
+          <h3>2. Track Your Progress</h3>
+          <p>Use our tools to monitor your daily tasks and mood.</p>
+        </div>
+
+        <div class="step-box">
+          <h3>3. Stay Motivated</h3>
+          <p>Read daily motivation and keep pushing towards your goals.</p>
+        </div>
+      </div>
+
+      <!-- Call to action (CTA) section -->
+       <div class="cta">
+        <h2>Start Your Smart Life Today!</h2>
+        <p>Join us and take control of your daily habits and decisions</p>
+       </div>
+   </section>
+      <!-- footer -->
+      <footer>
+        <p>2025 Smart Life. All Rights Reserved.</p>
+      </footer>
+      <script type="module" src="js/script.js"></script>
+    </body>
+</html>
