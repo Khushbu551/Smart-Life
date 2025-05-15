@@ -32,6 +32,8 @@
 
 - This project uses **JSONPlaceholder** as a temporary API, which can be replaced with a more suitable one.
 
+**Note:** THis project was built for learning purposes to explore and practice [mention technologies]. Security and production-level optimizations are not the primary focus.
+
 ## Preview
 
 ![Smart Life](/images/pic.png)
